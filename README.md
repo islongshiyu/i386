@@ -7,7 +7,7 @@
 
 ## Install
 
-1. install theme:`git submodule add git@github.com:islongshiyu/i386.git i386`
+1. install theme:`git submodule add git@github.com:islongshiyu/i386.git themes/i386`
 2. install [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap) (*optional*):`npm install hexo-tag-bootstrap --save`
 3. install [hexo-generator-search](https://github.com/paichyperiondev/hexo-generator-search) (*optional*):`npm install hexo-generator-search --save`
 4. create pages: i386 offers you the customized Categories, Tags and About pages. But you need to manually create these page at your 'source' folder.
@@ -26,6 +26,8 @@ layout: categories
 Modify `theme` setting in your `_config.yml` to `i386`.
 
 ## Configuration
+
+create `_config.i386.yml` and add the follow configuration:
 
 ```shell
 slogan: Yet another bootstrap theme.
